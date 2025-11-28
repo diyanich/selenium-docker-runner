@@ -14,4 +14,5 @@ pipeline{
                 echo "docker-compose down"
             }
         }
+    }
 }

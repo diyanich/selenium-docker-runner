@@ -1,9 +1,6 @@
 pipeline{
-
     agent any
-
     stages{
-
         stage('Run Test'){
             steps{
                 ch "docker-compose up"
@@ -14,4 +11,5 @@ pipeline{
                 echo "docker-compose down"
             }
         }
+    }
 }
